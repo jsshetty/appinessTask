@@ -1,0 +1,17 @@
+
+.employeeContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.employeeCard {
+     background-color: antiquewhite;
+     margin: 2%;
+     padding: 2%;
+     text-align: left;
+}
+
+.employeeCard div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

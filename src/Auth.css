@@ -1,0 +1,107 @@
+.login-input {
+    font-family: sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 80%;
+    border: 0;
+    margin: 0 1vw 2vw;
+    padding: 0.5vw;
+    box-sizing: border-box;
+    font-size: 1vw;
+    height: 2vw;
+    color: black;
+    font: 400 15px system-ui;
+    text-align: left;
+    border-radius: 0.5vw;
+    border: 0.1vw solid #C1C5C8;
+  }
+  
+  .login-title {
+    font-family: 'Mansalva','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    font-style: normal;
+    color: black
+  }
+
+  .title {
+    margin: auto;
+    padding: 1vw;
+    font-family: 'Courier New', 'Mansalva','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 100;
+
+  }
+
+  .login {
+    display: block;
+    flex-wrap: wrap;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+  .login-box {
+    max-width: 30%;
+    max-height: 60%;
+    /* flex-basis: calc(13.333% - 2rem);
+    flex-grow: 1; */
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    box-shadow: 0 1px 32px rgba(0,0,0,0.5);
+    padding: 0.5vw;
+  }
+
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:#065784;
+    width: 50%;
+    border: 0;
+    padding: 1vw;
+    color: #FFFFFF;
+    font-size: 1vw;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-bottom: 2vw;
+    }
+  
+  .login-label {
+    padding: 1vw;
+    text-align: left;
+    font-family: sans-serif;
+    outline: 0;
+    width: 50%;
+    border: 0;
+    margin: 0 1vw 2vw;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1vw;
+    height: 2vw;
+    color: black;
+    font: 400 15px system-ui;
+    }
+
+  .login-label-div {
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    margin-left: 2vw;
+    text-align: left;
+    font-weight: 400;
+    color: #404040;
+    font-size: 1vw;
+    line-height: 2vw;
+    }
+
+  .login-header-text {
+    font-weight: 0.5vw;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+    }
